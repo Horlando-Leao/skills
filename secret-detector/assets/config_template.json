@@ -1,0 +1,97 @@
+{
+  "description": "Configuração personalizada para Secret Detector",
+  "exclude": {
+    "directories": [
+      ".git",
+      ".github",
+      "node_modules",
+      "__pycache__",
+      ".venv",
+      "venv",
+      "dist",
+      "build",
+      ".next",
+      ".nuxt",
+      ".cache",
+      ".pytest_cache",
+      ".mypy_cache",
+      ".tox",
+      "coverage",
+      "custom-ignore-dir"
+    ],
+    "files": [
+      ".DS_Store",
+      "*.pyc",
+      "*.pyo",
+      "*.class",
+      "*.o",
+      "*.so",
+      "*.egg-info"
+    ]
+  },
+  "patterns": {
+    "enabled": [
+      "stripe-live-key",
+      "stripe-test-key",
+      "stripe-restricted-key",
+      "github-pat",
+      "github-oauth",
+      "github-app",
+      "github-refresh",
+      "aws-access-key",
+      "aws-secret-key",
+      "password-assignment",
+      "api-key-assignment",
+      "ssh-private-key",
+      "openssh-private-key",
+      "pgp-private-key",
+      "url-with-credentials",
+      "bearer-token",
+      "jwt-token",
+      "firebase-api-key",
+      "google-oauth-token",
+      "slack-token",
+      "base64-private-key"
+    ],
+    "disabled": [],
+    "custom_patterns": [
+      {
+        "name": "meu-padrao-customizado",
+        "pattern": "seu_regex_aqui",
+        "severity": "HIGH",
+        "description": "Descrição do seu padrão"
+      }
+    ]
+  },
+  "severity": {
+    "fail_on_critical": false,
+    "fail_on_high": false,
+    "ignore_low": false
+  },
+  "false_positives": {
+    "auto_exclude": true,
+    "exclude_keywords": [
+      "example",
+      "test",
+      "sample",
+      "documentation",
+      "demo"
+    ]
+  },
+  "output": {
+    "format": "text",
+    "verbose": false,
+    "color": true,
+    "save_to_file": null
+  },
+  "notes": {
+    "usage": "Use com: python scripts/secret_scanner.py /path/to/scan --format json",
+    "patterns_docs": "Veja references/PATTERNS.md para detalhes de cada padrão",
+    "examples": [
+      "python secret_scanner.py . --fail-on-critical",
+      "python secret_scanner.py . --format json > report.json",
+      "python secret_scanner.py . --list-patterns",
+      "python secret_scanner.py . --exclude node_modules,dist"
+    ]
+  }
+}
