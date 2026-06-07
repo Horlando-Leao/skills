@@ -1,0 +1,68 @@
+---
+name: skill-name-here
+description: Descrição clara do que a skill faz e quando ativá-la. Use palavras-chave para identificação automática. Máximo 1024 caracteres.
+license: MIT
+compatibility: Requisitos opcionais de ambiente (ex: Python 3.11+, Git, Docker)
+metadata:
+  author: seu-nome
+  version: "1.0"
+  category: categoria-aqui
+---
+
+# Título da Skill
+
+Comece aqui com uma breve introdução do que sua skill faz.
+
+## Quando Usar
+
+Descreva os gatilhos e cenários onde esta skill deve ser ativada.
+
+## Funcionalidades Principais
+
+- Funcionalidade 1
+- Funcionalidade 2
+- Funcionalidade 3
+
+## Como Usar
+
+Forneça instruções de uso ou exemplos práticos.
+
+### Exemplo 1
+Descreva um exemplo de uso comum.
+
+### Exemplo 2
+Descreva outro cenário relevante.
+
+## Estrutura de Diretórios
+
+```
+skill-name/
+├── SKILL.md               # Este arquivo
+├── scripts/               # Código executável
+│   └── exemplo.py
+├── references/            # Documentação densa
+│   └── REFERENCE.md
+└── assets/                # Templates e dados
+    └── template.json
+```
+
+## Recursos Adicionais
+
+Veja [references/REFERENCE.md](references/REFERENCE.md) para documentação técnica detalhada.
+
+Para scripts de automação, consulte [scripts/](scripts/).
+
+## Validação
+
+Após finalizar sua skill, valide-a com:
+
+```bash
+skills-ref validate ./skill-name-here
+```
+
+## Próximos Passos
+
+1. ✏️ Customize os valores de frontmatter
+2. 📝 Expanda a documentação
+3. 🔧 Adicione scripts e templates conforme necessário
+4. ✅ Valide e compartilhe sua skill!
