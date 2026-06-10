@@ -134,7 +134,7 @@ Você pode instalar qualquer uma das skills deste repositório utilizando a ferr
 
 ### Usando npx
 ```bash
-npx skills add <nome-da-skill>
+npx skills add Horlando-Leao/skills <nome-da-skill>
 ```
 
 ### Usando GitHub CLI
