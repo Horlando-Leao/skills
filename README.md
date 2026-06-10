@@ -161,7 +161,7 @@ MIT License - veja [LICENSE](LICENSE) para detalhes
 **Horlando Leão**
 
 - GitHub: [@Horlando-Leao](https://github.com/Horlando-Leao)
-- Email: horlando.leao@example.com
+- Email: horlandojcleao.developer@gmail.com
 
 ---
 
