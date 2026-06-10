@@ -160,6 +160,22 @@ Utilitário para testes locais rápidos durante desenvolvimento.
 
 ---
 
+### 15. **github-skill-manager** 🐙
+Gerenciador do ciclo de vida de Agent Skills usando os comandos oficiais 'gh skill'.
+
+- **Diretório:** [github-skill-manager/](github-skill-manager/)
+
+---
+
+### 16. **semantic-commits** 💾
+Analisa arquivos em stage, agrupa-os semanticamente e cria commits convencionais separados.
+*Origem: Copiado de [mbaptista10/skills](https://github.com/mbaptista10/skills/tree/main/semantic-commits)*
+
+- **Diretório:** [semantic-commits/](semantic-commits/)
+
+---
+
+
 ## 📖 Estrutura de Diretórios
 
 Cada skill segue este padrão:
@@ -344,4 +360,4 @@ Para dúvidas ou sugestões, abra uma [Issue](https://github.com/Horlando-Leao/s
 
 ---
 
-**Última atualização:** 7 de junho de 2026
+**Última atualização:** 10 de junho de 2026
