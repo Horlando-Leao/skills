@@ -14,7 +14,7 @@ via ferramenta Bash. Prefixe comandos de shell com `rtk`.
 
 ## Entradas (peça ao usuário se não vierem)
 
-1. **Canal do Slack** — link ou ID. Do link `https://<org>.slack.com/archives/C09DS8C3ZFA`,
+1. **Canal do Slack** — link ou ID. Do link `https://<org>.slack.com/archives/<<channel_id>>`,
    o `channel_id` é o `C...` depois de `/archives/`.
 2. **Referência da entrega** — uma **release tag** (ex.: `v1.12.0`) **ou** o número de uma **PR** (ex.: `276`).
 3. _(Opcional)_ print/screenshot de demonstração.
