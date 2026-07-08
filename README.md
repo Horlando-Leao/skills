@@ -128,6 +128,13 @@ Guia completo para testar uma feature localmente: orienta quando usar as skills 
 
 ---
 
+### 17. **report-incident** 🔧
+Monta e publica (como RASCUNHO) no Slack um reporte de incidente técnico com estrutura padronizada — causa, diagnóstico com dados reais, correção aplicada, risco estrutural. Use quando o usuário pedir para reportar/comunicar um incidente no Slack. Exige que o usuário informe o canal (link ou ID) e quem reportou o incidente.
+
+- **Diretório:** [report-incident/](report-incident/)
+
+---
+
 ## 🔧 Instalação e Uso
 
 Você pode instalar qualquer uma das skills deste repositório utilizando a ferramenta `npx` ou a CLI oficial do GitHub:
@@ -146,7 +153,7 @@ gh skill install Horlando-Leao/skills <nome-da-skill>
 
 | Métrica | Valor |
 |---------|-------|
-| **Skills Totais** | 17 |
+| **Skills Totais** | 18 |
 | **Padrões de Detecção** | 20+ (secret-detector) |
 | **Licença** | MIT |
 
