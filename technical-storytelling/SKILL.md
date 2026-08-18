@@ -1,3 +1,8 @@
+---
+name: technical-storytelling
+description: Reconstructs technical bugs, discoveries, incidents, and documentation from conversation context or document folders into clear, evidence-based technical narratives. It connects context, symptoms, investigation, findings, root cause, reproduction steps, decisions, and resolution so developers who did not participate in the investigation can quickly understand what happened, why it happened, and what needs to be done.
+---
+
 # SKILL: Technical Storytelling — Bug, Discovery & Technical Documentation
 
 ## 1. PURPOSE
